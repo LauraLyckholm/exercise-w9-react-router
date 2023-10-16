@@ -1,3 +1,7 @@
+// - This file defines the routes for the application.
+// - There's a default route that points to the `Home` component.
+// - A dynamic route is set up for individual songs using the `:songTitle` parameter. This route renders the `SongInfo` component.
+
 import { Route } from "react-router-dom";
 import Home from "../pages/Home";
 // Import your SongInfo page component below
